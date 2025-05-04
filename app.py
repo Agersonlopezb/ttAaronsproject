@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 import plotly.express as px
-car_data = pd.read_csv('Agersonlopezb/ttAaronsproject/vehicles_us.csv') # leer los datos
+car_data = pd.read_csv('https://github.com/Agersonlopezb/ttAaronsproject/blob/main/vehicles_us.csv') # leer los datos
 st.header('Vehiculos Aaron Lopez')
 st.write('Esta es mi primer aplicacion funcional.')
 
